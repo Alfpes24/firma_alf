@@ -105,13 +105,41 @@
     </td>
   </tr>
 </table>
-<!-- 6) DISCLAIMER / UNSUBSCRIBE -->
-<div style="margin-top:10px; border-top:1px solid #eef9f5; padding-top:8px; text-align:center;">
-  <div style="font-size:10px; color:#97a6a2; line-height:1.4;">
-    Questo messaggio è destinato esclusivamente al destinatario e può contenere informazioni riservate. 
-    Se non desideri più ricevere comunicazioni, 
-    <a href="mailto:alfonso.pesce@miodottore.it?subject=Rimozione%20dalla%20mailing%20list&body=Buongiorno%2C%20desidero%20non%20ricevere%20più%20comunicazioni." 
-       style="color:#0b5a4a; text-decoration:none; font-weight:600;">clicca qui</a>.
-  </div>
+<!-- 6) DISCLAIMER / UNSUBSCRIBE (responsive + email-safe + single-line) -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="border-top:1px solid #eef9f5; margin-top:10px;">
+  <tr>
+    <td align="center" style="padding:10px 12px 0 12px;">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="max-width:640px;">
+        <tr>
+          <td class="footer-disclaimer" align="center" style="font-family:Arial,Helvetica,sans-serif; font-size:10px; color:#97a6a2; line-height:1.4; text-align:center; word-break:break-word;">
+            Questo messaggio è destinato esclusivamente al destinatario e può contenere informazioni riservate. Se non desideri più ricevere comunicazioni, 
+            <a class="unsub-link" href="mailto:alfonso.pesce@miodottore.it?subject=Rimozione%20dalla%20mailing%20list&body=Buongiorno%2C%20desidero%20non%20ricevere%20pi%C3%B9%20comunicazioni." style="color:#0b5a4a; text-decoration:none; font-weight:600;">clicca qui</a>.
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Mobile tweaks (supportati da Gmail/Apple Mail) -->
+<style>
+@media screen and (max-width:480px){
+  .footer-disclaimer{
+    font-size:13px !important;
+    line-height:1.6 !important;
+    padding-top:10px !important;
+  }
+  .unsub-link{
+    display:inline-block !important;
+    padding:10px 14px !important;
+    border:1px solid #0b5a4a !important;
+    border-radius:6px !important;
+    margin-top:8px !important;
+  }
+}
+</style>
+
 </div>
+
 
